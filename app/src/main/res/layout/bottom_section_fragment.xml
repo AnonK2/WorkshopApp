@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="250dp"
+        android:hint="ID"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Username"
+        android:layout_marginTop="15dp"
+        android:width="250dp"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/SignInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="60dp"
+        android:text="Sign In"
+        android:textStyle="italic"
+        android:background="#2d8fff"
+        android:textColor="@drawable/text_color"
+        android:onClick="OnSignInClick" />
+
+</RelativeLayout>

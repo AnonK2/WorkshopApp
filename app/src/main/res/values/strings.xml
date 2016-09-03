@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">MasterDetailExample</string>
-    <string name="title_blogpost_detail">BlogPost Detail</string>
+    <string name="app_name">UPH</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

@@ -1,4 +1,4 @@
-package com.example.masterdetailexample;
+package com.uph.uph;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
